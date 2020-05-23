@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Welcome text */
+h1 {
+  font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif;
+  font-size: 4.4rem;
+  word-spacing: -0.2rem;
+  line-height: 1.1;
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* Description */
+p {
+  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana,
+    sans-serif;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  object-fit: contain;
+  /*   background: teal; */
+}
+
+.imageflex {
+  align-items: baseline;
+  align-self: flex-start;
+  display: flex;
+  width: 10%;
+  justify-content: center;
+/*   background: teal; */
+  object-fit: contain;
+  margin-top: 25%;
+  margin-right: 0;
+
+}
+
+.restflex {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: flex-start;
+  margin-top: 10%;
+/*   background: purple; */
+}
+
+
+form {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+/* Similar to the main container */
+
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-right: 20px;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-start;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: -10%;
+  margin-bottom: 20px;
+}
+
+.signupflex {
+/*   background: red; */
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 23.5%;
+  margin-right: 25%;
+  flex-wrap: no-wrap;
+  flex: 1;
+  margin-bottom: 10px;
+  width: 52%
+}
+
+#label {
+
+    max-width: 635px;
+    margin-left: 10px;
+    font-size: 15px;
+  /*   width: 50%; */
+}
+
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: transparent;
+  color: #bdbbb9;
+  border: 1px solid #dedddc;
+  width: 120px;
+  margin-left: 10px;
+  /*   position: relative; */
+  /*   margin-left: 5%; */
+  /*   margin: 0 auto; */
+}
+
+.terms {
+  width: 53% !important;
+  max-width: 52% !important;
+  max-width: 635px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 100px;
+  width: 100%;
+/*   text-align: center; */
+}
+
+.legalnotice {
+  width: 53% !important;
+  max-width: 52% !important;
+  font-size: 15px;
+  position: relative;
+  top: 200px;
+/*   position: fixed;
+  left: 0;
+  bottom: 0; */
+  width: 100%;
+/*   text-align: center; */
+}
