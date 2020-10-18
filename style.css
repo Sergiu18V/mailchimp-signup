@@ -141,3 +141,7 @@ form {
   width: 100%;
 /*   text-align: center; */
 }
+
+input:click {
+  
+}
